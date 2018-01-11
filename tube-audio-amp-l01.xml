@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/tube-audio-amp-l01.sch</source>
+    <date>Пн 08 янв 2018 18:32:50</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tube-audio-amp-l01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/timbre-block/" tstamps="/5A5245FF/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>timbre-block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/audio-amplifier/" tstamps="/5A524715/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>audio-amplifier.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/visual-level-indicator/" tstamps="/5A524784/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>visual-level-indicator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/power-supply/" tstamps="/5A5247C4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power-supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/switch-summator/" tstamps="/5A538223/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch-summator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_Left_Channel</value>
+      <libsource lib="conn" part="Conn_Coaxial"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53822C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Right_Channel</value>
+      <libsource lib="conn" part="Conn_Coaxial"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A538314</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_SPDT</value>
+      <libsource lib="switches" part="SW_Push_SPDT"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53845C</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_SPDT</value>
+      <libsource lib="switches" part="SW_Push_SPDT"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A5384C1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0,1</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A5385E6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0,1</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53863C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k ... 1M</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A538CBB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k ... 1M</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A538D8E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k ... 1M</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A538DEE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k ... 1M</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A538E4E</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>6N1P</value>
+      <footprint>Valves:VALVE-NOVAL_P</footprint>
+      <libsource lib="ru_valves" part="6N1P"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A538FCF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53925D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>7,5k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A5393E1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A539480</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4,7</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53956D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>300R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53CF4A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>300R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53D06D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100R (?)</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53E073</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47,0 x 450V</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/switch-summator/" tstamps="/5A538223/"/>
+      <tstamp>5A53E2DD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ru_valves" part="6N1P">
+      <description>double triode</description>
+      <docs>http://www.r-type.org/pdfs/ecc81.pdf</docs>
+      <footprints>
+        <fp>VALVE*NOVAL*P*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6N1P</field>
+        <field name="Footprint">Valves:VALVE-NOVAL_P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="output"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="K" type="BiDi"/>
+        <pin num="4" name="F1" type="power_in"/>
+        <pin num="5" name="F1" type="power_in"/>
+        <pin num="6" name="A" type="output"/>
+        <pin num="7" name="G" type="input"/>
+        <pin num="8" name="K" type="BiDi"/>
+        <pin num="9" name="E" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push_SPDT">
+      <description>Momentary Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="ru_valves">
+      <uri>/home/rz3ddd/KiCAD_projects/KiCAD_My_Libs/ru_valves.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/usr/share/kicad/library/switches.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/switch-summator/Uf2">
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="2" name="GNDA">
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="3" name="/switch-summator/Summ_Signal">
+      <node ref="R8" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="4" name="/switch-summator/Ua-ss">
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="5" name="/switch-summator/Uf1">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C3-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+  </nets>
+</export>
