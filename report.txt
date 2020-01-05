@@ -1,0 +1,45 @@
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/sym-lib-table" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/sym-lib-table-2019-09-22-16-53-38".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/tube-audio-amp-l01.sch" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/tube-audio-amp-l01-2019-09-22-16-53-38.sch".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/timbre-block.sch" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/timbre-block-2019-09-22-16-53-38.sch".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/audio-amplifier.sch" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/audio-amplifier-2019-09-22-16-53-38.sch".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/visual-level-indicator.sch" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/visual-level-indicator-2019-09-22-16-53-38.sch".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/power-supply.sch" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/power-supply-2019-09-22-16-53-38.sch".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/switch-summator.sch" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/switch-summator-2019-09-22-16-53-38.sch".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/tube-audio-amp-l01.pro" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/tube-audio-amp-l01-2019-09-22-16-53-38.pro".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/tube-audio-amp-l01-cache.lib" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/tube-audio-amp-l01-cache-2019-09-22-16-53-38.lib".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/tube-audio-amp-l01-rescue.lib" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/tube-audio-amp-l01-rescue-2019-09-22-16-53-38.lib".
+Информация: Резервное копирование файла "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/tube-audio-amp-l01-rescue.dcm" в файл "/home/rz3ddd/KiCAD_projects/Tube_Audio_Amp-L01/rescue-backup/tube-audio-amp-l01-rescue-2019-09-22-16-53-38.dcm".
+Информация: Добавление библиотеки "tube-audio-amp-l01-rescue", файл "${KIPRJMOD}/tube-audio-amp-l01-rescue.lib" к таблице библиотек компонентов проекта.
+Информация: Добавление библиотеки "ru_valves", файл "/home/rz3ddd/KiCAD_projects/KiCAD_My_Libs/ru_valves.lib" к таблице библиотек компонентов проекта.
+Компонент "6S52N-V" переназначен к библиотеке "ru_valves".
+Компонент "Conn_Coaxial" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "Conn_Coaxial" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "SW_Push_SPDT" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "SW_Push_SPDT" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "GNDA" переназначен к библиотеке "power".
+Компонент "GNDA" переназначен к библиотеке "power".
+Компонент "C" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "C" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "GNDA" переназначен к библиотеке "power".
+Компонент "6N1P" переназначен к библиотеке "ru_valves".
+Компонент "6N1P" переназначен к библиотеке "ru_valves".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "C" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "GNDA" переназначен к библиотеке "power".
+Компонент "GNDA" переназначен к библиотеке "power".
+Компонент "GNDREF" переназначен к библиотеке "power".
+Компонент "6N1P" переназначен к библиотеке "ru_valves".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "GNDA" переназначен к библиотеке "power".
+Компонент "R" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "CP" переназначен к библиотеке "tube-audio-amp-l01-rescue".
+Компонент "GNDA" переназначен к библиотеке "power".
+Компонент "GNDA" переназначен к библиотеке "power".
+Информация: Переназначение библиотек компонентов таблицы завершено!

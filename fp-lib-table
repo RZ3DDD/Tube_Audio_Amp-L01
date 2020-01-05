@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name My_Pads)(type KiCad)(uri /home/rz3ddd/KiCAD_projects/KiCAD_My_Libs/My_Pads.pretty)(options "")(descr "My projects pads library"))
+)

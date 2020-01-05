@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name tube-audio-amp-l01-rescue)(type Legacy)(uri ${KIPRJMOD}/tube-audio-amp-l01-rescue.lib)(options "")(descr ""))
+  (lib (name ru_valves)(type Legacy)(uri /home/rz3ddd/KiCAD_projects/KiCAD_My_Libs/ru_valves.lib)(options "")(descr ""))
+)

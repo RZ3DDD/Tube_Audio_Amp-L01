@@ -83,7 +83,7 @@ F1 "switch-summator.sch" 60
 F2 "Uf1" I R 3400 2800 60 
 F3 "Uf2" I R 3400 3050 60 
 F4 "GNDAbus" I R 3400 3550 60 
-F5 "Summ_signal" O R 3400 2100 60 
+F5 "Summ_Signal" O R 3400 2100 60 
 F6 "Ua-ss" I R 3400 2450 60 
 $EndSheet
 Wire Wire Line
